@@ -1,0 +1,3 @@
+export const GET_PRO_REQ='GET_PRO_REQ'
+export const GET_PRO_SUCCESS='GET_PRO_SUCCESS'
+export const GET_PRO_ERROR='GET_PRO_ERROR'
