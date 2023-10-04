@@ -97,20 +97,20 @@ const Products = () => {
         setFabric(fabrics)
     }
 
-    window.addEventListener('scroll', () => {
-        const scrollHeight = document.documentElement.scrollHeight;
-        // console.log("scrollHeight:",scrollHeight)
-        const scrollTop = window.scrollY;
-        // console.log("scrollTop:",scrollTop)
-        const clientHeight = document.documentElement.clientHeight;
-        // console.log("clientHeight:",clientHeight)
+    // window.addEventListener('scroll', () => {
+    //     const scrollHeight = document.documentElement.scrollHeight;
+    //     // console.log("scrollHeight:",scrollHeight)
+    //     const scrollTop = window.scrollY;
+    //     // console.log("scrollTop:",scrollTop)
+    //     const clientHeight = document.documentElement.clientHeight;
+    //     // console.log("clientHeight:",clientHeight)
       
-        // Check if the user has scrolled to the bottom
-        if (Math.floor(scrollHeight - scrollTop) === clientHeight) {
-          // Load more products when the user reaches the bottom
-          console.log("Bottum of the page!")
-        }
-      });
+    //     // Check if the user has scrolled to the bottom
+    //     if (Math.floor(scrollHeight - scrollTop) === clientHeight) {
+    //       // Load more products when the user reaches the bottom
+    //       console.log("Bottum of the page!")
+    //     }
+    //   });
 
 
     return (
@@ -191,6 +191,8 @@ const Products = () => {
                                 <Checkbox onChange={handleCategory} value={"shoe"}>Shoes</Checkbox>
                                 <br />
                                 <Checkbox onChange={handleCategory} value={"jeans"}>Jeans</Checkbox>
+                                <br />
+                                <Checkbox onChange={handleCategory} value={"kurti"}>Kurti</Checkbox>
                             </Box>
                         </Box>
                         <hr style={{ color: "#323232", borderTop: "1px solid #aaaaaa", marginTop: "10px" }} />

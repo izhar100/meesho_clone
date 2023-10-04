@@ -92,7 +92,7 @@ const PlaceOrderbtn = () => {
             </Box>
             <Modal isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />
-                <ModalContent bgColor={"#ffe2f5"}>
+                <ModalContent bgColor={"#d5ffef"}>
                     <ModalBody p={"40px"}>
                         <Alert
                             status='success'
@@ -103,7 +103,7 @@ const PlaceOrderbtn = () => {
                             textAlign='center'
                             height='200px'
                             borderRadius={"10px"}
-                            bgColor={"#ffe2f5"}
+                            bgColor={"#d5ffef"}
                         >
                             <AlertIcon boxSize='40px' mr={0} />
                             <AlertTitle mt={4} mb={1} fontSize='lg'>

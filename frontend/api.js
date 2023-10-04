@@ -1,2 +1,2 @@
-export const productURL="http://localhost:8080/product"
-export const mainURL="http://localhost:8080"
+export const productURL="https://meesho-8lem.onrender.com/product"
+export const mainURL="https://meesho-8lem.onrender.com"

@@ -6,8 +6,8 @@ const Cover1 = () => {
         <div>
             <Flex>
                 <Box p={"30px"} w={"50%"} bgColor={'#ebebeb'} borderLeftRadius={"5px"}>
-                    <Heading fontSize={'xxx-large'}>Lowest Prices</Heading>
-                    <Heading fontSize={'xxx-large'}>Best Quality Shopping</Heading>
+                    <Heading fontSize={'xxx-large'}>Saal Ka</Heading>
+                    <Heading fontSize={'xxx-large'}>Sabse Kam Daam</Heading>
                     <br />
                     <Flex p={"10px"} bgColor={"#ffffff"} borderRadius={"10px"} gap={"40px"}>
                         <Flex alignItems={'center'} gap={"5px"} pr={"8px"} pl={"8px"} >
@@ -24,13 +24,15 @@ const Cover1 = () => {
                         </Flex>
                     </Flex>
                     <br />
-                    <Button colorScheme='pink' p={'20px'} pr={"25px"} pl={"25px"}>
-                        <Image src='https://images.meesho.com/images/pow/playstoreSmallIcon.png'/>
-                        <Text ml={"15px"}>Download the Meesho App</Text>
+                    <Button bgColor={"#9F2089"} p={'23px'} pr={"25px"} pl={"25px"}
+                    _hover={{bg:"#9F2089"}}>
+                        <Image src='https://images.meesho.com/images/pow/playstoreSmallIcon.png'
+                        />
+                        <Text ml={"15px"} fontSize={"18px"} color={"white"}>Download the Meesho App</Text>
                     </Button>
                 </Box>
-                <Box>
-                 <Image src='https://images.meesho.com/images/marketing/1687149525469_512.webp'/>
+                <Box w={"50%"}>
+                 <Image src='https://images.meesho.com/images/marketing/1695987804920_512.webp' borderRightRadius={"5px"} w={"100%"}/>
                 </Box>
             </Flex>
         </div>

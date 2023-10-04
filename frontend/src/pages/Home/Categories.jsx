@@ -6,7 +6,7 @@ const Categories = () => {
     return (
         <div>
             <Box>
-                <Box position='relative' padding='10' pl={'0'}>
+                <Box position='relative' padding='10' pl={'0'} pr={"0"}>
                     <Divider color={"#a800a5"} border={"0.01em solid #a800a5"} />
                     <AbsoluteCenter bg='white' px='5'>
                         <Heading color={'#464646'}>Top Categories to choose from</Heading>
@@ -16,18 +16,20 @@ const Categories = () => {
                 <Flex bgColor={'#ebebeb'} p={'20px'} gap={'20px'} pt={"100px"} pl={"30px"} pb={'40px'}
                     background={'linear-gradient(0deg, rgba(200,200,200,1) 33%, rgba(255,196,154,1) 100%)'}
                     borderRadius={'5px'}
+                    backgroundImage={'url("https://images.meesho.com/images/marketing/1695992101090_1200.webp")'}
+                    backgroundSize={'100% 100%'}
                 >
                     <Box>
-                        <Image src='https://images.meesho.com/images/marketing/1678691686252_400.webp' w={'422px'} />
+                        <Image src='https://images.meesho.com/images/marketing/1678691686252_400.webp' w={'422px'} borderRadius={"10px"} />
                     </Box>
                     <Box>
-                        <Heading textAlign={'center'} pt={'30px'} fontSize={'50px'}>Be fashion forward</Heading>
+                        <Box h={"90px"}></Box>
                         <Flex gap={'20px'} pt={"50px"}>
                             <Box>
-                                <Image src='https://images.meesho.com/images/marketing/1678691699680_300.webp' w={'325px'} />
+                                <Image src='https://images.meesho.com/images/marketing/1678691699680_300.webp' w={'325px'} borderRadius={"10px"} />
                             </Box>
                             <Box>
-                                <Image src='https://images.meesho.com/images/marketing/1678691712594_300.webp' w={'325px'} />
+                                <Image src='https://images.meesho.com/images/marketing/1678691712594_300.webp' w={'325px'} borderRadius={"10px"}/>
                             </Box>
                         </Flex>
                     </Box>
@@ -35,7 +37,7 @@ const Categories = () => {
                 <br />
                 <br />
                 <Box
-                    backgroundImage={'url("https://images.meesho.com/images/marketing/1678691743015_1200.webp")'}
+                    backgroundImage={'url("https://images.meesho.com/images/marketing/1695992792171_1200.webp")'}
                     backgroundSize={'100% 100%'}
                     h={'546px'}
                     borderRadius={'5px'}
@@ -47,26 +49,26 @@ const Categories = () => {
                         <Flex>
                             <Box>
                                 <Box p={"10px"}>
-                                 <Image src='https://images.meesho.com/images/marketing/1678691846068_200.webp'/>
+                                 <Image src='https://images.meesho.com/images/marketing/1678691846068_200.webp' borderRadius={"10px"}/>
                                 </Box>
                                 <Flex justifyContent={'center'}>
-                                <Image src='https://images.meesho.com/images/marketing/1678691858580_150.webp'/>
+                                <Image src='https://images.meesho.com/images/marketing/1695992188817_150.webp'/>
                                 </Flex>
                             </Box>
                             <Box>
                                 <Box p={"10px"}>
-                                 <Image src='https://images.meesho.com/images/marketing/1678691832099_200.webp'/>
+                                 <Image src='https://images.meesho.com/images/marketing/1678691832099_200.webp' borderRadius={"10px"}/>
                                 </Box>
                                 <Flex justifyContent={'center'}>
-                                <Image src='https://images.meesho.com/images/marketing/1678691818629_150.webp' w={'160px'} h={'55px'}/>
+                                <Image src='https://images.meesho.com/images/marketing/1695994525297_150.webp' w={'160px'} h={'55px'}/>
                                 </Flex>
                             </Box>
                             <Box>
                                 <Box p={"10px"}>
-                                 <Image src='https://images.meesho.com/images/marketing/1678691796046_200.webp'/>
+                                 <Image src='https://images.meesho.com/images/marketing/1678691796046_200.webp' borderRadius={"10px"}/>
                                 </Box>
                                 <Flex justifyContent={'center'}>
-                                <Image src='https://images.meesho.com/images/marketing/1678691781261_150.webp'/>
+                                <Image src='https://images.meesho.com/images/marketing/1695988086464_150.webp'/>
                                 </Flex>
                             </Box>
                         </Flex>
@@ -76,7 +78,7 @@ const Categories = () => {
                 <br />
                 <br />
                 <Box
-                    backgroundImage={'url("https://images.meesho.com/images/marketing/1678691892265_1200.webp")'}
+                    backgroundImage={'url("https://images.meesho.com/images/marketing/1695988278665_1200.webp")'}
                     backgroundSize={'100% 100%'}
                     h={'546px'}
                     borderRadius={'5px'}
@@ -88,26 +90,26 @@ const Categories = () => {
                         <Flex>
                             <Box>
                                 <Box p={"10px"}>
-                                 <Image src='https://images.meesho.com/images/marketing/1678691960553_200.webp'/>
+                                 <Image src='https://images.meesho.com/images/marketing/1678691960553_200.webp' borderRadius={"10px"}/>
                                 </Box>
                                 <Flex justifyContent={'center'}>
-                                <Image src='https://images.meesho.com/images/marketing/1678691971903_150.webp'/>
+                                <Image src='https://images.meesho.com/images/marketing/1695988198147_150.webp'/>
                                 </Flex>
                             </Box>
                             <Box>
                                 <Box p={"10px"}>
-                                 <Image src='https://images.meesho.com/images/marketing/1678691936892_200.webp'/>
+                                 <Image src='https://images.meesho.com/images/marketing/1678691936892_200.webp' borderRadius={"10px"}/>
                                 </Box>
                                 <Flex justifyContent={'center'}>
-                                <Image src='https://images.meesho.com/images/marketing/1678691948963_150.webp'/>
+                                <Image src='https://images.meesho.com/images/marketing/1695988219818_150.webp'/>
                                 </Flex>
                             </Box>
                             <Box>
                                 <Box p={"10px"}>
-                                 <Image src='https://images.meesho.com/images/marketing/1678691925419_200.webp'/>
+                                 <Image src='https://images.meesho.com/images/marketing/1678691925419_200.webp' borderRadius={"10px"}/>
                                 </Box>
                                 <Flex justifyContent={'center'}>
-                                <Image src='https://images.meesho.com/images/marketing/1678691914513_150.webp'/>
+                                <Image src='https://images.meesho.com/images/marketing/1695988240481_150.webp'/>
                                 </Flex>
                             </Box>
                         </Flex>

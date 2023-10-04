@@ -77,7 +77,7 @@ const SignIn = () => {
                 let user = result.user;
                 console.log(user.phoneNumber);
                 dispatch({ type: LOGIN_REQ })
-                axios.post("http://localhost:8080/user/signin", { phone: user.phoneNumber }).then((res) => {
+                axios.post("https://meesho-8lem.onrender.com/user/signin", { phone: user.phoneNumber }).then((res) => {
                     dispatch({ type: LOGIN_SUCCESS, payload: res.data })
                     setLoading(false)
                     toast({

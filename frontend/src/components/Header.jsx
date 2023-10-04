@@ -20,6 +20,11 @@ const Header = () => {
             token:store.authReducer.token
         }
     },shallowEqual)
+    const { cartItem } = useSelector((store) => {
+        return {
+            cartItem: store.cartReducer.cartItem
+        }
+    }, shallowEqual)
     const [downloadColor, setDownloadColor] = useState('black')
     const [displayDownload, setDisplayDownload] = useState('none')
     const [displayProfile,setDisplayProfile]=useState('none')
@@ -178,7 +183,15 @@ const Header = () => {
                                 >
                                 </Box>
                             </Box>
-                            <Box _hover={{cursor:"pointer"}} onClick={()=>navigate("/cart")}>
+                            <Box _hover={{cursor:"pointer"}} onClick={()=>navigate("/cart")} position={"relative"}>
+                                <Text position={"absolute"}
+                                 color={"#9F2089"}
+                                 bgColor={"#fee0ff"}
+                                 borderRadius={"50%"} pr={"5px"} pl={"5px"}
+                                 fontSize={"10px"} fontWeight={500} textAlign={"center"}
+                                 right={"-4px"} top={"-5px"}
+                                 display={cartItem?.length==0?"none":"block"}
+                                >{cartItem?.length}</Text>
                                 <Flex justifyContent={"center"}>
                                     <BsCart2 size={22} />
                                 </Flex>
